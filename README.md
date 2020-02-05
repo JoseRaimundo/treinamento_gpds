@@ -29,7 +29,7 @@ Um repositório é como uma pasta no Github, no qual você colocará todos os ar
 
 > Tente evitar espaços, utilize underline (**_**) para separar as palavras, ex: meu_repositorio
 
-![criando repositório](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds/img/novo_repositorio.png)
+![criando repositório](https://raw.githubusercontent.com/JoseRaimundo/treinamento_projeto_ecg_gpds/master/img/novo_repositorio.png)
 
 
 ##### Branchs
