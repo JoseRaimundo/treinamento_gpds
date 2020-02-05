@@ -41,11 +41,14 @@ Um repositório é como uma pasta no Github, no qual você colocará todos os ar
 
 #### Sincronizando alterações
 
+#### Documentando no README
+
 ### Python
 #### Instalação
-#### Estrutura de Pastas
+#### Estrutura de Pastas de Projetos
 #### Numpy
 #### Pandas
+#### Plotagem
 
 ### Machine Learning
 #### Sklearn
