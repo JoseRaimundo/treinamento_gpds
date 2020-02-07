@@ -1,6 +1,44 @@
+
 ## Treinamento para projetos GPDS
 
 Este repositório oferece um treinamento básico das principais ferramentas que são utilizadas nas pesquisa realizadas no Grupo de Processamento Digital de Sinais (GPDS). O conteúdo pode (DEVE), ser usado para consulta e sempre melhorado, fique à vontade para fazer seu **pull request** com alterações, sugestões e etc.
+
+### Linux
+
+Lista de comandos para usar no terminal linux. Para abrir o terminal **tecle** `ctrl + alt + t` e use os seguintes comandos.   
+
+Listando conteúdo de uma pasta:
+	
+	ls
+
+Comandos para entrar e sair de uma pasta, respectivamente:
+
+	cd nome_da_pasta
+	cd ..
+
+Criando uma nova pasta:
+
+	mkdir nome_da_nova_pasta
+
+Criando um novo arquivo:
+
+	touch nome_do_novo_arquivo
+
+Deletando arquivo:
+
+	rm -rf nome_do_arquivo
+
+Renomeando arquivo:
+
+	mv arquivo_antigo artigo_novo
+
+Copiando arquivos:
+
+	cp arquivo outra_pasta/arquivo_copia	
+
+Ver o path em que você está:
+
+	pwd
 
 ### Github
 
@@ -27,7 +65,7 @@ Um repositório é como uma pasta no Github, no qual você colocará todos os ar
 
 
 
-> Tente evitar espaços, utilize underline (**_**) para separar as palavras, ex: meu_repositorio
+> Tente evitar espaços, utilize underline (**_**) para separar as palavras, ex: meu_repositorio, ou letras maiúsculas para começar uma nova palavra, ex: meuRepositorio
 
 ![criando repositório](https://raw.githubusercontent.com/JoseRaimundo/treinamento_projeto_ecg_gpds/master/img/novo_repositorio.png)
 
@@ -44,9 +82,54 @@ Um repositório é como uma pasta no Github, no qual você colocará todos os ar
 #### Documentando no README
 
 ### Python
+
+!IMPORTANTE: Esse é apenas um tutorial básico, com as ferramentas mais usadas, para mais aprofundamentos acesse as documentações de referência no final de cada explicação.
+
 #### Instalação
+
+Apesar de haver versões mais recentes, é recomendado que instale uma das versões 3.5 - 3.7 do Phyton, pois são mais estáveis e com maior compatibilidade com aplicações e bibliotecas.
+
+Para instalar no Ubuntu, use os comandos:
+
+	sudo apt-get install python3.6
+	sudo apt-get install python3-pip
+
+O **pip** é uma ferramenta do python que ajuda na instalação de bibliotecas. 
+ 
 #### Estrutura de Pastas de Projetos
+
+Antes de começar a "codar", é bom organizar bem suas pastas e arquivos, uma alternativa para estrutura de projeto pode ser da seguinte forma:
+
+	PastaDoProjeto
+	--- main.py
+	--> src
+		 |--- funcao1.py
+		 |--- funcao2.py	
+	--> dataset
+		 |--- dados.csv
+	--> output
+		 |--- graficos.png
+		 |--- log.txt
+	--- README.md
+
+Explicando: 
+
+ - A **PastaDoProjeto** é onde ficará tudo, também é a pasta que representará seu repositório no **github**.
+ - **main.py** é o arquivo principal, que é executado antes de qualquer coisa.
+ - Na pasta **src** fica o restante dos seus códigos: funções, classes, outras pastas.
+ - Na pasta **dataset** fica seu banco de dados, arquivos do tipo xls, csv e etc. São os dados que sua aplicação irá usar.
+ - Na pasta **output** fica as saídas do seu programa, gráficos, anotações de resultados, arquivos de relatórios (log) e etc.
+ - Ainda dentro da pasta principal, temos o arquivo **README.md** que contém as instruções que irão aparecer no github. 
+
+Esta estrutura de pastas não é uma regra geral, porém ela é simples e bem clara, o que ajudará para que outros pesquisadores entendam melhor o seu código/programa.
+
+Exemplo: 
+
+Crie uma estrutura de arquivos conforme explicado anteriormente
+
 #### Numpy
+
+
 #### Pandas
 #### Plotagem
 
