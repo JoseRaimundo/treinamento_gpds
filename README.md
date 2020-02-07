@@ -3,7 +3,15 @@
 
 Este repositório oferece um treinamento básico das principais ferramentas que são utilizadas nas pesquisa realizadas no Grupo de Processamento Digital de Sinais (GPDS). O conteúdo pode (DEVE), ser usado para consulta e sempre melhorado, fique à vontade para fazer seu **pull request** com alterações, sugestões e etc.
 
-### Linux
+### Sumário
+
+ - [Comandos básicos para Linux](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#linux)
+ - [Github](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#github)
+ - [Python](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#python)
+	 - [Instalação](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#instala%C3%A7%C3%A3o)
+	 - [Estrutura de projeto](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#estrutura-de-pastas-de-projetos)
+
+### Comandos básicos para Linux
 
 Lista de comandos para usar no terminal linux. Para abrir o terminal **tecle** `ctrl + alt + t` e use os seguintes comandos.   
 
@@ -111,6 +119,7 @@ Antes de começar a "codar", é bom organizar bem suas pastas e arquivos, uma al
 		 |--- graficos.png
 		 |--- log.txt
 	--- README.md
+	--- .gitignore
 
 Explicando: 
 
@@ -120,6 +129,7 @@ Explicando:
  - Na pasta **dataset** fica seu banco de dados, arquivos do tipo xls, csv e etc. São os dados que sua aplicação irá usar.
  - Na pasta **output** fica as saídas do seu programa, gráficos, anotações de resultados, arquivos de relatórios (log) e etc.
  - Ainda dentro da pasta principal, temos o arquivo **README.md** que contém as instruções que irão aparecer no github. 
+ - No aquivo **.gitignore** você colocará os arquivos que não quer que vá para o github, ex. Arquivos muito grande, imagens, arquivos com senhas, rascunhos e etc.
 
 Esta estrutura de pastas não é uma regra geral, porém ela é simples e bem clara, o que ajudará para que outros pesquisadores entendam melhor o seu código/programa.
 
