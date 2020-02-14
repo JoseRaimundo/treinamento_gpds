@@ -148,3 +148,12 @@ Crie uma estrutura de arquivos conforme explicado anteriormente
 #### Tensorflow
 
 ### Desafios
+
+#### Manipulação de Dados
+
+   1. Crie uma estrutura de pastas conforme explicado [aqui](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#estrutura-de-pastas-de-projetos).
+   2. Dentro da pasta **dataset**, adicione esse banco de dados: Banco
+   3. Crie uma função chamada **dataAnalise** que recebe um **dataframe** pandas e printa no terminal os titulos das colunas, dra
+   4. Crie dois vetores, um para as features e outro para a classe.
+      
+
