@@ -1,4 +1,5 @@
 
+
 ## Treinamento para projetos GPDS
 
 Este repositório oferece um treinamento básico das principais ferramentas que são utilizadas nas pesquisa realizadas no Grupo de Processamento Digital de Sinais (GPDS). O conteúdo pode (DEVE), ser usado para consulta e sempre melhorado, fique à vontade para fazer seu **pull request** com alterações, sugestões e etc.
@@ -11,7 +12,17 @@ Este repositório oferece um treinamento básico das principais ferramentas que 
 	 - [Instalação](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#instala%C3%A7%C3%A3o)
 	 - [Estrutura de projeto](https://github.com/JoseRaimundo/treinamento_projeto_ecg_gpds#estrutura-de-pastas-de-projetos)
 
-### Comandos básicos para Linux
+### Linux (Ubuntu)
+
+Por que usar Linux? - Sistemas operacionais como o Ubuntu, Debian, Fedora e etc. Ajudam bastante para quem vai trabalhar com desenvolvimento, pois tem uma gama de ferramentas e conteúdo na internet que podem auxiliar no desenvolvimento de suas aplicações. Algumas vantagens:
+
+ - Instaladores de pacotes (você não precisa se preocupar com configurar máquina, ou instalar alguma DLL).
+ - Não existe virus para Sistemas operacionais Linux.
+ - Maior controle de instalações e atualizações (você não é forçado a instalar updates)
+ - Demanda menos recursos computacionais que os demais sistemas operacionais como Windows 10, ou outros.
+ - Estável, tem menos chances de travar ou corromper algum arquivo.
+
+#### Comandos básicos para Linux
 
 Lista de comandos para usar no terminal linux. Para abrir o terminal **tecle** `ctrl + alt + t` e use os seguintes comandos.   
 
@@ -47,6 +58,10 @@ Copiando arquivos:
 Ver o path em que você está:
 
 	pwd
+
+Instalação de algum programa:
+	
+	sudo apt-get install nome_do_programa
 
 ### Github
 
@@ -156,4 +171,3 @@ Crie uma estrutura de arquivos conforme explicado anteriormente
    3. Crie uma função chamada **dataAnalise** que recebe um **dataframe** pandas e printa no terminal os titulos das colunas, dra
    4. Crie dois vetores, um para as features e outro para a classe.
       
-
