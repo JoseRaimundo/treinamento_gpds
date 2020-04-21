@@ -195,8 +195,8 @@ Certo:
 **#Dica1**: Use valores default (valores padrões) nos parâmetros das funções. Esses valores serão utilizados se você não especificar um valor para a variável, com isso você garante que a função será alimentada e também evita que você tenha que preencher sempre um parâmetros que se repete várias vezes. Exemplo:
 
     def escreveNumeros(primeiro = 1, segundo = 2):
-    	print("Primeiro Número: ", primeiro)
-	print("Segundo Número: ", segundo)
+		print("Primeiro Número: ", primeiro)
+		print("Segundo Número: ", segundo)
 
 Agora se você chamar essa função sem passar nenhum argumento, os valores default serão utilizados.
 
