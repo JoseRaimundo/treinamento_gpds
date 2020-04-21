@@ -104,6 +104,17 @@ Um repositório é como uma pasta no Github, no qual você colocará todos os ar
 
 #### Documentando no README
 
+### Visual Studio Code
+
+O VS é um dos melhores ambientes de desenvolvimento que há, pois apresenta uma interface simples e é relativamente simples quando comparado a outras alternativas mais complexas. Para instalar, baixe o instalado no site oficial [AQUI](https://code.visualstudio.com/download). Caso você esteja utilizando o Ubuntu (Linux), baixe o aquivo **.deb** e digite o seguinte comando na pasta onde o arquivo está:
+
+	sudo dpkg -i nome_do_arquivo_baixado.deb
+
+Se acontecer algum problema, digite o comando e, após o comando terminar, tente instalar o programa novamente:
+
+	sudo apt-get install -f 
+	
+
 ### Python
 
 !IMPORTANTE: Esse é apenas um tutorial básico, com as ferramentas mais usadas, para mais aprofundamentos acesse as documentações de referência no final de cada explicação.
@@ -235,3 +246,20 @@ Agora se você chamar essa função sem passar nenhum argumento, os valores defa
    3. Crie uma função chamada **dataAnalise** que recebe um **dataframe** pandas e printa no terminal os titulos das colunas, dra
    4. Crie dois vetores, um para as features e outro para a classe.
       
+### Utilidades
+
+#### Links
+
+ - [Deepleaning book - Enciclopédia online de Deep
+   Learning](http://deeplearningbook.com.br/)
+ - [Datascience Pizza - Repositório com vários dataset e conteúdos
+   interessantes](https://github.com/PizzaDeDados/datascience-pizza)
+ - [Machine learning mastery - Coleção de tutoriais bem explicados
+   (Python)](https://machinelearningmastery.com/start-here/#getstarted)
+
+#### Cursos 
+ - [Cursera - Um dos melhores cursos gratuitous que existe sobre machine learning](https://pt.coursera.org/learn/machine-learning)
+
+#### Vídeos
+
+ - [StatQuest - Canal sobre machine learning com vídeos muito didáticos](https://www.youtube.com/user/joshstarmer)
