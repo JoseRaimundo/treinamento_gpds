@@ -143,14 +143,78 @@ Explicando:
  - Na pasta **src** fica o restante dos seus códigos: funções, classes, outras pastas.
  - Na pasta **dataset** fica seu banco de dados, arquivos do tipo xls, csv e etc. São os dados que sua aplicação irá usar.
  - Na pasta **output** fica as saídas do seu programa, gráficos, anotações de resultados, arquivos de relatórios (log) e etc.
- - Ainda dentro da pasta principal, temos o arquivo **README.md** que contém as instruções que irão aparecer no github. 
+ - Ainda dentro da pasta principal, temos o arquivo **README.md** que contém as instruções que irão aparecer no github.
  - No aquivo **.gitignore** você colocará os arquivos que não quer que vá para o github, ex. Arquivos muito grande, imagens, arquivos com senhas, rascunhos e etc.
 
 Esta estrutura de pastas não é uma regra geral, porém ela é simples e bem clara, o que ajudará para que outros pesquisadores entendam melhor o seu código/programa.
 
-Exemplo: 
 
-Crie uma estrutura de arquivos conforme explicado anteriormente
+
+#### Dicas de programação com python
+
+Estas são dicas baseadas em códigos e repositórios profissionais, e livros de boas práticas de programação, porém não é uma regra geral.
+
+##### Dicas de padronização
+
+Padronize a nomenclatura de seu código, utilize letras maiúsculas ou underline para diferenciar as palavras que compões o nome das funções e variáveis.
+Exemplo de variáveis:
+
+    variavel_teste = 10
+    variavelTest = 10
+
+
+Exemplo de funções:
+
+    def funcao_teste():
+    def funcaoTeste():
+
+Utilize nomes bem definidos e que representem bem o significado da variável ou da função. Exemplo:
+
+Errado:
+
+    a = b + c
+
+Certo:
+
+	soma = primeiro_termo + segundo_termo
+
+
+##### Dicas de optimização de código
+
+**#Dica1**: Use valores default (valores padrões) nos parâmetros das funções. Esses valores serão utilizados se você não especificar um valor para a variável, com isso você garante que a função será alimentada e também evita que você tenha que preencher sempre um parâmetros que se repete várias vezes. Exemplo:
+
+    def escreveNumeros(primeiro = 1, segundo = 2):
+	    print("Primeiro Número: ", primeiro)
+		print("Segundo Número: ", segundo)
+
+Agora se você chamar essa função sem passar nenhum argumento, os valores default serão utilizados.
+
+    escreveNumeros()
+    # Saída
+    Primeiro Núemro: 1
+    Segundo Número: 2
+
+  Exemplo passando valores pela ordem:
+
+    escreveNumeros(3, 4)
+    # Saída
+    Primeiro Núemro: 3
+    Segundo Número: 4
+
+  Exemplo passando valores pelo nome (note que mesmo com a posição trocada, os valores assumem o nome do parâmetro ao qual ele é atribuído):
+
+    escreveNumeros(seundo = 3, primeiro = 4)
+    # Saída
+    Primeiro Núemro: 4
+    Segundo Número: 3
+
+**#Dica2**:
+
+ Variáveis globais não são recomendadas, porém em situações em que elas são utilizadas em muitos lugares com o mesmo valores elas são úteis,  ou quando elas possuem valores constantes, pois reduz o tempo gasto para atualizar seu valor em caso de testes. Uma dica para definir uma constante, é utilizar todas as letras maiúsculas. Exemplo:
+
+    PI = 3.14
+    CONSTANTE_TESTE = 10
+    MAX_NUMERO = 999999999
 
 #### Numpy
 
