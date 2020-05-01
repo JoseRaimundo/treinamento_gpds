@@ -264,9 +264,13 @@ Agora se você chamar essa função sem passar nenhum argumento, os valores defa
 
 
 #### Pandas
+
+
 #### Plotagem
 
 ### Machine Learning
+
+### Deep Learning
 #### Sklearn
 #### Tensorflow
 
@@ -278,7 +282,7 @@ Agora se você chamar essa função sem passar nenhum argumento, os valores defa
    2. Dentro da pasta **dataset**, adicione esse banco de dados: Banco
    3. Crie uma função chamada **dataAnalise** que recebe um **dataframe** pandas e printa no terminal os titulos das colunas, dra
    4. Crie dois vetores, um para as features e outro para a classe.
-      
+
 ### Utilidades
 
 #### Links
