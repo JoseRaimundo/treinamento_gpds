@@ -146,7 +146,7 @@ O VS é um dos melhores ambientes de desenvolvimento que há, pois apresenta uma
 Se acontecer algum problema, digite o comando e, após o comando terminar, tente instalar o programa novamente:
 
 	sudo apt-get install -f 
-	
+
 
 ### Python
 
